@@ -16,7 +16,7 @@ baseURL = "/"
 publishDir = "public"
 
 # Remote
-#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+baseURL = "https://piste.ai"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
 
@@ -25,7 +25,7 @@ publishDir = "public"
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "G-XXXXXXXXXX"
+googleAnalytics = "G-1G1L268YJ4"
 
 ## -----------------------------------------------
 ## Site Parameters

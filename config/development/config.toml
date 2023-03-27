@@ -2,7 +2,7 @@
 ## Basic Configuration
 ## -----------------------------------------------
 
-title = "Hugo Story"
+title = "piste.ai"
 copyright = "{year}"
 
 ## -----------------------------------------------
@@ -25,7 +25,7 @@ publishDir = "public"
 ## -----------------------------------------------
 
 disableKinds = ["taxonomy", "taxonomyTerm", "section"]
-# googleAnalytics = "G-XXXXXXXXXX"
+googleAnalytics = "G-1G1L268YJ4"
 
 ## -----------------------------------------------
 ## Site Parameters
