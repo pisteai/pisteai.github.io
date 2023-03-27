@@ -16,7 +16,7 @@ baseURL = "/"
 publishDir = "public"
 
 # Remote
-baseURL = "https://piste.ai"
+#baseURL = "https://piste.ai"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
 
