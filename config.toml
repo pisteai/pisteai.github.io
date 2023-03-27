@@ -1,178 +1,38 @@
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
+
+theme = "hugo-story"
+
+## -----------------------------------------------
+## Publish
+## -----------------------------------------------
+
+relativeURLs = "true"
+#canonifyURLs = "true"
+
+# Local
 baseURL = "/"
-title = "piste.ai"
-languageCode = "en-us"
-defaultContentLanguage = "en"
-paginate = "7"
-theme = "spectral"
+publishDir = "public"
 
-[params]
-fancyTitle = "piste.ai" # title for frontpage, may include image
-copyright = "piste.ai"
-description = "Dedicated to turning your vision into tangible data strategy"
-startbuttonText = "Get In Touch"
-startbuttonLink = "#contact"
-body_is_markdown = true
-#custom_css = "foo.css"
-#images = ["path_to_social_image_for_link_previews.jpg"]
-
-[[params.menu.main]]
-url = '/'
-title = "Home"
-
-[[params.menu.main]]
-url = '/posts/'
-title = "Posts"
-
-[taxonomies]
-    tag = "tags"
-    category = "categories"
-    series = "series"
-
-# [params.one]
-# enable = false
-# title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
-# body = '''
-# Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-# fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
-# '''
-# 
-# [[params.one.icon]]
-# icon = "fa-diamond"
-# style = "1"
-# label = "Lorem"
-# 
-# [[params.one.icon]]
-# icon = "fa-heart-o"
-# style = "2"
-# label = "Ipsum"
-# 
-# [[params.one.icon]]
-# icon = "fa-code"
-# style = "3"
-# label = "Dolor"
-
-[params.two]
-enable = false
-
-[[params.two.section]]
-img = "img/pic01.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[[params.two.section]]
-img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
-
-[params.three]
-enable = true
-title = 'What We Do'
-body = '''
-At Piste.ai, we believe that data is the key to unlocking the full potential of any business. By pushing the boundaries of 
-what's possible with cutting-edge solutions tailored to each client, we empower businesses to soar to new heights of success. 
-Join us on this exhilarating journey as we pave the way to a data-driven future!
-'''
-
-[[params.three.feature]]
-icon = "fa-project-diagram"
-title = "Data Strategy"
-body = '''
-Using a unique and innovative approach, we assess your current data capabilities, identify areas for improvement, and design a 
-roadmap for implementation that maximizes ROI. We bring together our business acumen and deep understanding of the data landscape
-to create tailored solutions for your success!
-'''
-
-[[params.three.feature]]
-icon = "fa-robot"
-title = "AI/ML"
-body = '''
-With their deep expertise in advanced algorithms, we design and develop bespoke solutions that leverage the full potential of 
-your data. We use the latest technologies and methods to create predictive models, automate business processes, and enable 
-intelligent decision-making, all while helping you stay ahead of the competition.
-'''
-
-[[params.three.feature]]
-icon = "fa-language"
-title = "LLM Implementation"
-body = '''
-Large Language Models like ChatGPT and Bard represent a true revolution in the way we do work. With years of experience 
-under our belt, we design and deploy cutting-edge models that can understand and generate human-like language. Whatever your
-business, our experts cut through the hype to help you understand how you can leverage these models quickly to take your business
-to the next level.
-'''
-
-[[params.three.feature]]
-icon = "fa-chart-bar"
-title = "Data Analytics"
-body = '''
-We use the latest tools and techniques to create interactive dashboards, reports, and infographics that bring data to life in a way 
-that is both visually stunning and easy to understand. Our designs communicate insights with clarity and impact, 
-delivering data-driven decisions.
-'''
-
-[[params.three.feature]]
-icon = "fa-cogs"
-title = "Data Engineering"
-body = '''
-We use modern technologies like cloud computing and big data platforms to build scalable, reliable, and secure data systems that 
-empower our clients to unlock the full potential of their data. We design solutions that are efficient and cost-effective, ensuring 
-that your data is always working for you.
-'''
-
-[[params.three.feature]]
-icon = "fa-shield-alt"
-title = "Data Governance"
-body = '''
-We ensure that your data policies and procedures are compliant with data regulations and standards. We work closely with you to 
-establish a comprehensive data governance framework that ensures data quality and security, giving you peace of mind and freedom 
-to focus on your core business.
-'''
+# Remote
+#baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
+#publishDir = "//centos/sites/hugodev/hugostory/"
 
 
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
 
-[params.cta]
-enable = false
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
 
-[[params.cta.link]]
-href = "#"
-text = "Activate"
-special = true
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
 
-[[params.cta.link]]
-href = "#"
-text = "Learn More"
-special = false
+[Params]
 
-[params.contact]
-enable = true
-title = "Contact"
-body = "Leave us a message."
-phone = ""
-address = "Salt Lake City, Utah"
+[Params.social]
+github = "https://github.com/pisteai"
 email = "nick@piste.ai"
-subject = "New Submission!"
-formspree_form_id = "example_invalid"
-
-[params.social]
-twitter = ""
-facebook = ""
-instagram = ""
-dribble = ""
-linkedin = "https://www.linkedin.com/in/nickpelikan/"
-
-# language specific options
-
-[languages.en]
-weight = 0
-languageName = "English"
-
-[languages.de]
-weight = 10
-languageName = "Deutsch"

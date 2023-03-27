@@ -1,0 +1,53 @@
+title : "What We Do"
+id: "whatwedo"
+content: ""
+style: "style1 medium onscroll-fade-in"
+items:
+  # feature item loop
+  - name : "Data Strategy"
+    content : >
+      Using a unique and innovative approach, we assess your current data capabilities, identify areas for improvement, and design a 
+      roadmap for implementation that maximizes ROI. We bring together our business acumen and deep understanding of the data landscape
+      to create tailored solutions for your success!
+    style : "style2 major fa-project-diagram"
+
+  # feature item loop
+  - name : "AI/ML"
+    content : >
+      With our deep expertise in advanced algorithms, we design and develop bespoke solutions that leverage the full potential of 
+      your data. We use the latest technologies and methods to create predictive models, automate business processes, and enable 
+      intelligent decision-making, all while helping you stay ahead of the competition.
+    style : "solid style2 major fa-robot"
+    
+  # feature item loop
+  - name : "LLM Implementation"
+    content : >
+      Large Language Models like ChatGPT and Bard represent a true revolution in the way we work. With years of experience 
+      under our belt, we design and deploy cutting-edge models that can understand and generate human-like language. Whatever your
+      business, our experts cut through the hype to help you understand how you can leverage these models quickly to take your business
+      to the next level.
+    style : "solid style2 major fa-language"
+    
+  # feature item loop
+  - name : "Data Analytics"
+    content : >
+      We use the latest tools and techniques to create interactive dashboards, reports, and infographics that bring data to life in a way 
+      that is both visually stunning and easy to understand. Our designs communicate insights with clarity and impact, 
+      delivering data-driven decisions.
+    style : "solid style2 major fa-chart-bar"
+    
+  # feature item loop
+  - name : "Data Engineering"
+    content : >
+      We use modern technologies like cloud computing and big data platforms to build scalable, reliable, and secure data systems that 
+      empower our clients to unlock the full potential of their data. We design solutions that are efficient and cost-effective, ensuring 
+      that your data is always working for you.
+    style : "solid style2 major fa-cogs"
+    
+  # feature item loop
+  - name : "Data Governance"
+    content : >
+      We ensure that your data policies and procedures are compliant with data regulations and standards. We work closely with you to 
+      establish a comprehensive data governance framework that ensures data quality and security, giving you peace of mind and freedom 
+      to focus on your core business.
+    style : "style2 major fa-shield-alt"

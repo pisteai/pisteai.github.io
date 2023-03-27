@@ -1,0 +1,23 @@
+####################### Spotlight #########################
+style: "style1 orient-left content-align-left image-position-center onscroll-image-fade-in"
+content: >
+  When we partnered with a major defense prime contractor, we knew we had our work cut out for us.
+  Their culture was far from data-driven, and they needed help to make the shift.
+  <br><br>
+  But we were up for the challenge. In just six short months, we were able to hire a diverse team of
+  incredible data engineers, data scientists, and data analysts. These talented individuals were 
+  exactly what the client needed to start turning data into tangible business 
+  results.
+  <br><br>
+  And the results were impressive. We saw decision making become more efficient, more accurate, and
+  more effective. We watched as the team became more empowered to take risks, knowing that their 
+  decisions were backed by data-driven insights.
+  <br><br>
+  But most importantly, we watched as the culture of the company began to shift. Data-driven 
+  decision making was no longer a foreign concept, but an integral part of their everyday 
+  operations. For us at piste.ai, this was a success story that we were proud to be a part of, 
+  and a testament to the transformative power of data.
+# button: 
+#   label: "Learn More"
+#   link: "#"
+image: "images/defense.jpg"

@@ -1,0 +1,13 @@
+####################### Banner #########################
+style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
+title : "piste.ai"
+subtitle: |
+  Dedicated to turning your vision into tangible data strategy
+content: >
+  At piste.ai, we believe that data is the key to unlocking the full potential of any business. By pushing the boundaries of 
+  what's possible with cutting-edge solutions tailored to each client, we empower businesses to soar to new heights of success.
+button:
+  label : "Learn more"
+  link : "#items"
+image : "images/piste_banner.jpg"
+
