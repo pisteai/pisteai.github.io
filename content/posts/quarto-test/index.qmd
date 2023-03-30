@@ -1,0 +1,15 @@
+---
+title: Hello, Quarto
+date: "2012-04-06"
+categories: 
+  - Matplotlib
+  - Coordinates
+format: hugo-md
+type: posts
+jupyter: wx
+---
+
+```python
+print("hi, mom!!")
+
+```

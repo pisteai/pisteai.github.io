@@ -19,6 +19,7 @@ publishDir = "public"
 #baseURL = "https://caressofsteel.github.io/demos/hugo/hugo-story/"
 #publishDir = "//centos/sites/hugodev/hugostory/"
 
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
