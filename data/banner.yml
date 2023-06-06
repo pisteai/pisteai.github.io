@@ -7,7 +7,10 @@ content: >
   At piste.ai, we believe that data is the key to unlocking the full potential of any business. By pushing the boundaries of 
   what's possible with cutting-edge solutions tailored to each client, we empower businesses to soar to new heights of success.
 button:
-  label : "Learn more"
+  label : "Learn More"
   link : "#items"
+cta:
+  label: "Contact Us"
+  link: "mailto:nick@piste.ai"
 image : "images/piste_banner.jpg"
 
