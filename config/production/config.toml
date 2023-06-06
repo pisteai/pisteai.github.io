@@ -33,7 +33,7 @@ googleAnalytics = "G-1G1L268YJ4"
 
 [Params]
   description = "A (modular, highly tweakable) responsive one-page theme for Hugo"
-  logo = "images/banner.jpg"
+  logo = "images/piste_logo.png"
   favicon = true
 
 [Params.social]
