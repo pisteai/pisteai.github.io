@@ -1,0 +1,17 @@
+<section class="wrapper style1 align-center">
+    <div class="inner">
+        <h2>{{ .title }}</h2>
+    <div class="index align-left">
+    <section>
+    <div class="content">
+        <span class="image left"><img src="{{ .image }}" alt="" /></span>
+        <ul class="alt">
+            {{ range .items }}
+                <li><a href="{{ .link }}">{{ .label }}</a></li>
+            {{ end }}
+        </ul>
+    </section>
+    </div>
+    </div>
+    </div>
+</section>

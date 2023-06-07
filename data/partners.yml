@@ -1,0 +1,14 @@
+title: Our Partners
+# subtitle: We partner with industry leaders to truly delight our clients.
+id: partners
+partners:
+  - label: "Lucida IQ"
+    image: images/lucida_logo.png
+    link: https://lucidaiq.com/
+    copy: > 
+      Lucida IQ is a dedicated cloud consulting firm that specializes in Cloud Architecture, Cloud 
+      Engineering, and AI integration in Cloud environments. Their expert team offers tailored, 
+      innovative solutions to help businesses transform and streamline their operations through 
+      effective cloud implementation. With an in-depth understanding of modern cloud technologies 
+      and a commitment to operational excellence, they strive to empower clients with robust, 
+      scalable, and secure cloud infrastructures.  

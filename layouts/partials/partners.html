@@ -1,0 +1,19 @@
+<section class="wrapper style1 align-center">
+    <div class="inner">
+        <h2>{{ .title }}</h2>
+        <p>{{ .subtitle | safeHTML }}</p>
+    <div class="index align-left">
+    <section>
+    <div class="content">
+        {{ range .partners }}
+            <section>
+                <span class="image left"><img src="{{ .image }}" alt="" /></span>
+                <h3><a href="{{ .link }}">{{ .label }}</a></h3>
+                <p>{{ .copy }}</p>
+            </section>
+        {{ end }}
+    </section>
+    </div>
+    </div>
+    </div>
+</section>
