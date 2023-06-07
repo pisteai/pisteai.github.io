@@ -5,11 +5,13 @@
     <div class="index align-left">
     <section>
     <div class="content">
-        {{ range .partners }}
+        {{ range $idx, $val := .partners  }}
             <section>
-                <span class="image left"><img src="{{ .image }}" alt="" /></span>
-                <h3><a href="{{ .link }}">{{ .label }}</a></h3>
-                <p>{{ .copy }}</p>
+                <span class="image {{ if (modBool $idx 2) }} left{{ else }} right{{ end }}">
+                    <img src="{{ $val.image }}" alt="" />
+                </span>
+                <h3><a href="{{ $val.link }}">{{ $val.label }}</a></h3>
+                <p>{{ $val.copy }}</p>
             </section>
         {{ end }}
     </section>
